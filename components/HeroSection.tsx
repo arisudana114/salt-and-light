@@ -29,7 +29,9 @@ export default function HeroSection() {
         Salt and Light
       </h1>
       <h2 className="text-lg md:text-xl text-gray-600 mb-12">
-        From vision to celebration, <br /> we help you make it happen.
+        From vision to celebration, <br className="md:hidden" />{" "}
+        <span className="hidden md:inline"> </span>
+        we help you make it happen.
       </h2>
 
       {/* 2x2 Image Grid */}

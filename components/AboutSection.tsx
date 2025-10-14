@@ -10,16 +10,19 @@ export default function AboutSection() {
       id="about"
       className={`${roboto.className} w-full py-20 px-6 md:px-12 bg-green-600/30 text-gray-900`}
     >
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start min-h-screen/2">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start md:min-h-[640px]">
         {/* Left column */}
-        <div className="flex flex-col justify-between h-full">
-          <h2 className="text-4xl md:text-6xl mb-6">
-            About <br />{" "}
-            <span className={`${italiana.className} text-6xl md:text-7xl`}>
-              Salt & Light
-            </span>
-          </h2>
+        <div className="flex flex-col justify-between self-end h-full">
+          <div className="self-start">
+            <h2 className="text-4xl md:text-6xl mb-6">
+              About <br />{" "}
+              <span className={`${italiana.className} text-6xl lg:text-7xl`}>
+                Salt & Light
+              </span>
+            </h2>
+          </div>
           <hr className="border-t border-black my-12 w-1/2" />
+
           <p className="leading-relaxed text-gray-800 mb-4">
             For more than eight years, Salt & Light has been part of countless
             moments that matter — from heartfelt private gatherings to inspiring
@@ -39,7 +42,7 @@ export default function AboutSection() {
         </div>
 
         {/* Right column */}
-        <div className="flex flex-col justify-between h-full">
+        <div className="self-end">
           <Image
             src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470"
             alt="Event planning"

@@ -55,6 +55,7 @@ export default function HeroSection() {
               <span
                 className="
       bg-black/50 text-white text-lg font-medium px-3 py-1
+      max-lg:bg-black/50 max-lg:text-white
       lg:bg-transparent lg:text-2xl lg:font-semibold lg:rounded-none lg:px-0 lg:py-0
     "
               >

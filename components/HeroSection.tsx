@@ -48,14 +48,14 @@ export default function HeroSection() {
             <div
               className="
           absolute inset-0 flex items-center justify-center 
-          md:bg-black/50 md:opacity-0 md:group-hover:opacity-100
+          lg:bg-black/50 lg:opacity-0 lg:group-hover:opacity-100
           transition-opacity duration-300
         "
             >
               <span
                 className="
             bg-black/50 text-white text-lg font-medium px-3 py-1
-            md:bg-transparent md:text-2xl md:font-semibold md:rounded-none md:px-0 md:py-0
+            lg:bg-transparent lg:text-2xl lg:font-semibold lg:rounded-none lg:px-0 lg:py-0
           "
               >
                 {hover_texts[i]}

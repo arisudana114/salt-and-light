@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { Roboto, Tangerine } from "next/font/google";
+import { Roboto, Italiana } from "next/font/google";
 
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
-const tangerine = Tangerine({ subsets: ["latin"], weight: ["400", "700"] });
+const italiana = Italiana({ subsets: ["latin"], weight: ["400"] });
 
 export default function AboutSection() {
   return (
@@ -15,7 +15,7 @@ export default function AboutSection() {
         <div className="flex flex-col justify-between h-full">
           <h2 className="text-4xl md:text-6xl font-semibold mb-6">
             About <br />{" "}
-            <span className={`${tangerine.className} text-6xl md:text-8xl`}>
+            <span className={`${italiana.className} text-6xl md:text-7xl`}>
               Salt and Light
             </span>
           </h2>

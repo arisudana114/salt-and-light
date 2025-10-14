@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { Roboto, Tangerine } from "next/font/google";
+import { Roboto, Italiana } from "next/font/google";
 import Link from "next/link";
 
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
-const tangerine = Tangerine({ subsets: ["latin"], weight: ["400", "700"] });
+const italiana = Italiana({ subsets: ["latin"], weight: ["400"] });
 
 export default function HeroSection() {
   const images = [
@@ -24,7 +24,7 @@ export default function HeroSection() {
     <section className="w-full text-center px-4 py-10 flex flex-col items-center mb-4">
       {/* Title */}
       <h1
-        className={`${tangerine.className} text-7xl md:text-8xl font-bold mb-2`}
+        className={`${italiana.className} text-7xl md:text-8xl font-bold mb-2`}
       >
         Salt and Light
       </h1>
@@ -45,8 +45,21 @@ export default function HeroSection() {
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-110"
             />
-            <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-2xl font-medium transition-opacity duration-300">
-              {hover_texts[i]}
+            <div
+              className="
+          absolute inset-0 flex items-center justify-center 
+          md:bg-black/50 md:opacity-0 md:group-hover:opacity-100
+          transition-opacity duration-300
+        "
+            >
+              <span
+                className="
+            bg-black/50 text-white text-lg font-medium px-3 py-1
+            md:bg-transparent md:text-2xl md:font-semibold md:rounded-none md:px-0 md:py-0
+          "
+              >
+                {hover_texts[i]}
+              </span>
             </div>
           </div>
         ))}

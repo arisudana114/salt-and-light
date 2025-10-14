@@ -13,7 +13,7 @@ export default function AboutSection() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start min-h-screen/2">
         {/* Left column */}
         <div className="flex flex-col justify-between h-full">
-          <h2 className="text-4xl md:text-6xl font-semibold mb-6">
+          <h2 className="text-4xl md:text-6xl mb-6">
             About <br />{" "}
             <span className={`${italiana.className} text-6xl md:text-7xl`}>
               Salt & Light

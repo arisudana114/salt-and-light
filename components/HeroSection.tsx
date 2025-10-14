@@ -23,9 +23,7 @@ export default function HeroSection() {
   return (
     <section className="w-full text-center px-4 py-10 flex flex-col items-center mb-4">
       {/* Title */}
-      <h1
-        className={`${italiana.className} text-6xl md:text-8xl font-bold mb-2`}
-      >
+      <h1 className={`${italiana.className} text-6xl md:text-8xl mb-2`}>
         Salt & Light
       </h1>
       <h2 className="text-lg md:text-xl text-gray-600 mb-12">

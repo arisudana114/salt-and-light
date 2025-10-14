@@ -14,9 +14,11 @@ export default function AboutSection() {
         {/* Left column */}
         <div className="flex flex-col justify-between self-end h-full">
           <div className="self-start">
-            <h2 className="text-4xl md:text-6xl mb-6">
+            <h2 className="text-6xl md:text-5xl lg:text-7xl mb-6">
               About <br />{" "}
-              <span className={`${italiana.className} text-6xl lg:text-7xl`}>
+              <span
+                className={`${italiana.className} text-6xl md:text-5xl lg:text-7xl`}
+              >
                 Salt & Light
               </span>
             </h2>

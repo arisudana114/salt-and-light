@@ -26,7 +26,7 @@ export default function HeroSection() {
       <h1
         className={`${italiana.className} text-6xl md:text-8xl font-bold mb-2`}
       >
-        Salt and Light
+        Salt & Light
       </h1>
       <h2 className="text-lg md:text-xl text-gray-600 mb-12">
         From vision to celebration, <br className="md:hidden" />{" "}

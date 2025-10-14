@@ -16,7 +16,7 @@ export default function AboutSection() {
           <h2 className="text-4xl md:text-6xl font-semibold mb-6">
             About <br />{" "}
             <span className={`${italiana.className} text-6xl md:text-7xl`}>
-              Salt and Light
+              Salt & Light
             </span>
           </h2>
           <hr className="border-t border-black my-12 w-1/2" />

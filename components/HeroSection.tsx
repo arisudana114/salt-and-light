@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { Roboto, Italiana } from "next/font/google";
+import { Roboto, Noto_Serif_Display } from "next/font/google";
 import Link from "next/link";
 
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
-const italiana = Italiana({ subsets: ["latin"], weight: ["400"] });
+const italiana = Noto_Serif_Display({ subsets: ["latin"], weight: ["400"] });
 
 export default function HeroSection() {
   const images = [

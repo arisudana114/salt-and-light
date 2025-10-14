@@ -42,7 +42,7 @@ export default function WhatWeDo() {
   ];
 
   return (
-    <section className="bg-white text-gray-900 md:py-24 mt-6 px-6 md:min-h-[640px] sm:mb-10">
+    <section className="bg-white text-gray-900 md:py-24 mt-6 px-6 md:min-h-[640px] mb-12">
       <div className="max-w-6xl mx-auto">
         <div className="mb-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">What We Do</h2>

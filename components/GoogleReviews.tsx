@@ -8,14 +8,14 @@ export default function GoogleReviews() {
       name: "Jonathan P.",
       date: "October 2025",
       review:
-        "Professional team and fast service. They helped us handle customs documentation efficiently.",
+        "Professional team and fast service. They helped us handle events efficiently.",
       video: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
       name: "Ayu R.",
       date: "September 2025",
       review:
-        "Very responsive and reliable warehouse partner. Highly recommended for import-export handling!",
+        "Very responsive and reliable event partner. Highly recommended for events organizing!",
       video: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
@@ -29,7 +29,7 @@ export default function GoogleReviews() {
       name: "Rina K.",
       date: "July 2025",
       review:
-        "Great experience! The staff was friendly and took care of our shipments properly.",
+        "Great experience! The staff was friendly and took care of our events properly.",
       video: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
   ];

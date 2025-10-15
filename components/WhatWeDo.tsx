@@ -45,7 +45,7 @@ export default function WhatWeDo() {
     <section className="bg-white text-gray-900 md:py-24 mt-6 px-6 md:min-h-[640px] mb-12">
       <div className="max-w-6xl mx-auto">
         <div className="mb-10">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">What We Do</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">WHAT WE DO</h2>
           <p className="max-w-2xl text-gray-600">
             We offer a full suite of event management and creative production
             services to make every moment unforgettable — from concept to
@@ -59,7 +59,7 @@ export default function WhatWeDo() {
             <div key={service.id}>
               <Button
                 onClick={() => setActiveModal(service.id)}
-                className="md:text-lg md:py-6 md:px-8 rounded-full border border-gray-800 text-gray-800 bg-transparent hover:bg-green-600/30 hover:text-black hover:border-green-600/30 transition cursor-pointer"
+                className="md:text-lg md:py-6 md:px-8 rounded-full border border-gray-800 text-gray-800 bg-transparent hover:bg-[#f5f3e6] hover:text-black hover:border-black transition cursor-pointer"
               >
                 {service.title}
               </Button>

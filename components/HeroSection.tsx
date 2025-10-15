@@ -2,7 +2,11 @@ import Image from "next/image";
 import { Roboto, Noto_Serif_Display } from "next/font/google";
 import Link from "next/link";
 
-const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+});
 const italiana = Noto_Serif_Display({ subsets: ["latin"], weight: ["400"] });
 
 export default function HeroSection() {
@@ -26,7 +30,9 @@ export default function HeroSection() {
       <h1 className={`${italiana.className} text-6xl md:text-8xl mb-2`}>
         Salt & Light
       </h1>
-      <h2 className="text-lg md:text-xl text-gray-600 mb-12">
+      <h2
+        className={`${roboto.className} italic text-lg md:text-xl text-gray-600 mb-9 mt-2`}
+      >
         From vision to celebration, <br className="md:hidden" />{" "}
         <span className="hidden md:inline"> </span>
         we help you make it happen.
@@ -70,7 +76,7 @@ export default function HeroSection() {
       <div className="flex gap-24 md:gap-60">
         <Link
           href="/portofolio"
-          className="px-6 py-2 border rounded-full border-gray-800 text-gray-800 bg-transparent hover:bg-green-600/30 hover:text-black hover:border-green-600/30 transition cursor-pointer"
+          className="px-6 py-2 border rounded-full border-gray-800 text-gray-800 bg-transparent hover:bg-[#f5f3e6] hover:text-black hover:border-black transition cursor-pointer"
         >
           Our Work
         </Link>
@@ -78,7 +84,7 @@ export default function HeroSection() {
           href="https://wa.me/6285775943846?text=Hey%20I%20came%20from%20your%20website%2C%20I%20would%20like%20to%20organize%20an%20event!"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-6 py-2 border rounded-full border-gray-800 text-gray-800 bg-transparent hover:bg-green-600/30 hover:text-black hover:border-green-600/30 transition cursor-pointer"
+          className="px-6 py-2 border rounded-full border-gray-800 text-gray-800 bg-transparent hover:bg-[#f5f3e6] hover:text-black hover:border-black transition cursor-pointer"
         >
           Contact Us
         </Link>

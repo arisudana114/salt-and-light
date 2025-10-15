@@ -8,14 +8,14 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className={`${roboto.className} w-full py-20 px-6 md:px-12 bg-green-600/30 text-gray-900`}
+      className={`${roboto.className} w-full py-20 px-6 md:px-12 bg-[#f5f3e6]/50 text-gray-900`}
     >
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start md:min-h-[640px]">
         {/* Left column */}
         <div className="flex flex-col justify-between self-end h-full">
           <div className="self-start">
-            <h2 className="text-6xl md:text-5xl lg:text-7xl mb-6">
-              About <br />{" "}
+            <h2 className="text-6xl md:text-5xl lg:text-5xl mb-6 font-bold">
+              ABOUT <br />{" "}
               <span
                 className={`${italiana.className} text-6xl md:text-5xl lg:text-7xl`}
               >

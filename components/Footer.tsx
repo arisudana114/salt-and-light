@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Left: Social links */}
         <div>
-          <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
+          <h3 className="text-xl font-semibold mb-4">FOLLOW US</h3>
           <div className="flex space-x-4">
             <a
               href="https://instagram.com"

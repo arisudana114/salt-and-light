@@ -121,7 +121,6 @@ export default function PortofolioPage() {
           </div>
         </div>
       </div>
-      <ServicesOverview />
     </section>
   );
 }

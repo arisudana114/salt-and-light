@@ -2,13 +2,13 @@
 
 export default function OurClients() {
   const logos = [
-    "/saltandlight.png",
-    "/saltandlight.png",
-    "/saltandlight.png",
-    "/saltandlight.png",
-    "/saltandlight.png",
-    "/saltandlight.png",
-    "/saltandlight.png",
+    "/biore.png",
+    "/ponds.png",
+    "/skintific.png",
+    "/revlon.png",
+    "/guardian.png",
+    "/lumeo.svg",
+    "/femaledaily.jpg",
     "/saltandlight.png",
   ];
 
@@ -19,7 +19,7 @@ export default function OurClients() {
     <section className="bg-white mb-20 overflow-hidden">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-gray-900">
-          Our Clients
+          OUR CLIENTS
         </h2>
 
         <div className="space-y-8">

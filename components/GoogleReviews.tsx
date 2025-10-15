@@ -1,6 +1,8 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Noto_Serif_Display } from "next/font/google";
+const italiana = Noto_Serif_Display({ subsets: ["latin"], weight: ["400"] });
 
 export default function GoogleReviews() {
   const reviews = [
@@ -35,8 +37,15 @@ export default function GoogleReviews() {
   ];
 
   return (
-    <section className="min-h-[640px] flex flex-col justify-center items-center bg-green-600/30 text-gray-900 px-4 py-20 ">
-      <h2 className="text-4xl font-bold mb-8 text-gray-800">Google Reviews</h2>
+    <section className="min-h-[640px] flex flex-col justify-center items-center bg-[#f5f3e6]/50 text-gray-900 px-4 py-20 ">
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-800 text-center">
+        <div>WHAT THEY SAY ABOUT</div>
+        <div
+          className={`${italiana.className} text-4xl md:text-5xl lg:text-5xl`}
+        >
+          Salt & Light
+        </div>
+      </h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 max-w-6xl w-full">
         {reviews.map((r, i) => (
           <Card

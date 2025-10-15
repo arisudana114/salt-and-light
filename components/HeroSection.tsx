@@ -75,7 +75,7 @@ export default function HeroSection() {
       </div>
 
       {/* Buttons */}
-      <div className="flex gap-24 md:gap-60">
+      <div className="flex gap-12 md:gap-60 text-sm md:text-lg">
         <Link
           href="/portofolio"
           className="px-6 py-2 border rounded-full border-gray-800 text-gray-800 bg-transparent hover:bg-[#f5f3e6] hover:text-black hover:border-black transition cursor-pointer"

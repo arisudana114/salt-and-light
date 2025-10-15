@@ -19,7 +19,7 @@ export default function PortofolioPage() {
         {/* Title */}
         <div className="mb-16 text-center md:text-left">
           <h1 className="text-5xl md:text-6xl font-semibold mb-4">
-            Our Portfolio
+            OUR PORTOFOLIO
           </h1>
           <p
             className={`${roboto.className} italic text-gray-700 text-lg max-w-2xl mx-auto md:mx-0`}

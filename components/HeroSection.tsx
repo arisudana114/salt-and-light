@@ -43,7 +43,9 @@ export default function HeroSection() {
         {images.map((src, i) => (
           <div
             key={i}
-            className="relative overflow-hidden h-64 sm:h-64 group cursor-pointer"
+            // use a 4:3 aspect ratio so each tile is wider than tall (4 width : 3 height)
+            // include a small min-height on very small screens so the `fill` image has a visible height
+            className="relative overflow-hidden w-full aspect-[4/3] min-h-[160px] group cursor-pointer"
           >
             <Image
               src={src}

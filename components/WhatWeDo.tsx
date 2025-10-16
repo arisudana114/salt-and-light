@@ -31,7 +31,7 @@ export default function WhatWeDo() {
     },
     {
       id: "weddings",
-      title: "Event Decoration",
+      title: "Decoration",
       description:
         "Our creative decoration team transforms ordinary spaces into extraordinary experiences. From elegant themes to modern concepts, we design visual atmospheres that reflect your vision and captivate every guest.",
     },
@@ -53,7 +53,7 @@ export default function WhatWeDo() {
     <section
       className={`${roboto.className} bg-white text-gray-900 md:py-24 mt-6 px-6 md:min-h-[640px] mb-12`}
     >
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-2">
         <div className="mb-10">
           <h2 className="text-4xl md:text-6xl font-bold mb-4">WHAT WE DO</h2>
           <p className={`${roboto.className} italic max-w-2xl text-gray-600`}>
@@ -64,7 +64,7 @@ export default function WhatWeDo() {
         </div>
 
         {/* Buttons */}
-        <div className="flex flex-wrap justify-between gap-4 md:gap-24 md:mt-32">
+        <div className="grid grid-cols-2 lg:flex lg:flex-wrap justify-between gap-4 md:gap-24 md:mt-32">
           {services.map((service) => (
             <div key={service.id}>
               <Button

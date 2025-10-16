@@ -14,7 +14,7 @@ export default function AboutSection() {
       id="about"
       className={`${roboto.className} w-full py-20 px-6 md:px-12 bg-[#f5f3e6]/50 text-gray-900`}
     >
-      <div className="max-w-6xl px-6 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start md:min-h-[640px]">
+      <div className="max-w-6xl px-2 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start md:min-h-[640px]">
         {/* Left column */}
         <div className="flex flex-col justify-between self-end h-full">
           <div className="self-start">

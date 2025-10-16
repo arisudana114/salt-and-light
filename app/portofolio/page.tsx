@@ -15,7 +15,7 @@ export default function PortofolioPage() {
     <section
       className={`${roboto.className} min-h-screen bg-[#f5f3e6]/50 py-20 px-6 md:px-12`}
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl px-6 mx-auto">
         {/* Title */}
         <div className="mb-16 text-center md:text-left">
           <h1 className="text-5xl md:text-6xl font-semibold mb-4">

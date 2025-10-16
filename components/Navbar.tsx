@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="relative w-20 h-20 md:w-32 md:h-32">
         <Link href="/">
           <Image
-            src="/saltandlight.png"
+            src="/saltandlight.jpg"
             alt="Salt and Light Logo"
             fill
             className="object-contain"

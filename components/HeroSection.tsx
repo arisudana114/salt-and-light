@@ -17,12 +17,7 @@ export default function HeroSection() {
     "https://images.unsplash.com/photo-1606050580496-f8f32a21afea?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1468",
   ];
 
-  const hover_texts = [
-    "Event Organizer",
-    "Event Decoration",
-    "Craft",
-    "Workshop",
-  ];
+  const hover_texts = ["EVENT ORGANIZER", "DECORATION", "CRAFT", "WORKSHOP"];
 
   return (
     <section className="w-full text-center px-4 py-10 flex flex-col items-center mb-4">
@@ -43,33 +38,21 @@ export default function HeroSection() {
         {images.map((src, i) => (
           <div
             key={i}
-            // use a 4:3 aspect ratio so each tile is wider than tall (4 width : 3 height)
-            // include a small min-height on very small screens so the `fill` image has a visible height
             className="relative overflow-hidden w-full aspect-[4/3] min-h-[160px] group cursor-pointer"
           >
-            <Image
-              src={src}
-              alt={`Hero Image ${i}`}
-              fill
-              className="object-cover transition-transform duration-500 group-hover:scale-110"
-            />
-            <div
-              className="
-    absolute inset-0 flex items-center justify-center 
-    lg:bg-black/50 lg:opacity-0 lg:group-hover:opacity-100
-    transition-opacity duration-300
-  "
-            >
-              <span
-                className="
-      bg-black/50 text-white text-lg font-medium px-3 py-1
-      max-lg:bg-black/50 max-lg:text-white
-      lg:bg-transparent lg:text-2xl lg:font-semibold lg:rounded-none lg:px-0 lg:py-0
-    "
-              >
-                {hover_texts[i]}
-              </span>
-            </div>
+            <Link href="#portofolio" className="block w-full h-full">
+              <Image
+                src={src}
+                alt={`Hero Image ${i}`}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="bg-black/50 text-white text-lg font-medium px-3 py-1 md:text-4xl tracking-wide lg:font-semibold lg:px-0 lg:py-0 w-full h-1/4 flex flex-col justify-center">
+                  {hover_texts[i]}
+                </span>
+              </div>
+            </Link>
           </div>
         ))}
       </div>

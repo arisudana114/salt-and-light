@@ -1,4 +1,11 @@
 "use client";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+});
 
 export default function OurClients() {
   const logos = [
@@ -16,11 +23,9 @@ export default function OurClients() {
   const repeated = [...logos, ...logos];
 
   return (
-    <section className="bg-white mb-20 overflow-hidden">
+    <section className={`${roboto.className} bg-white mb-20 overflow-hidden`}>
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold mb-12 text-gray-900">
-          OUR CLIENTS
-        </h2>
+        <h2 className="text-4xl md:text-6xl font-semibold mb-4">OUR CLIENTS</h2>
 
         <div className="space-y-8">
           {/* Row 1 */}

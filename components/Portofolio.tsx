@@ -1,7 +1,5 @@
-// app/portofolio/page.tsx
 import Image from "next/image";
 import { Roboto, Noto_Serif_Display } from "next/font/google";
-import ServicesOverview from "@/components/ServicesOverview";
 
 const noto = Noto_Serif_Display({ subsets: ["latin"], weight: ["400"] });
 const roboto = Roboto({
@@ -13,16 +11,17 @@ const roboto = Roboto({
 export default function PortofolioPage() {
   return (
     <section
-      className={`${roboto.className} min-h-screen bg-[#f5f3e6]/50 py-20 px-6 md:px-12`}
+      className={`${roboto.className} min-h-screen bg-[#f5f3e6]/50 py-20 px-6 md:px-12 scroll-mt-24`}
+      id="portofolio"
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto px-6">
         {/* Title */}
         <div className="mb-16 text-center md:text-left">
-          <h1 className="text-5xl md:text-6xl font-semibold mb-4">
+          <h1 className="text-4xl md:text-6xl font-semibold mb-4">
             OUR PORTOFOLIO
           </h1>
           <p
-            className={`${roboto.className} italic text-gray-700 text-lg max-w-2xl mx-auto md:mx-0`}
+            className={`${roboto.className} italic text-gray-700 max-w-2xl mx-auto md:mx-0`}
           >
             From grand celebrations to intimate gatherings — explore the
             artistry, creativity, and passion behind every Salt & Light event.

@@ -1,7 +1,11 @@
 import Image from "next/image";
 import { Roboto, Noto_Serif_Display } from "next/font/google";
 
-const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+});
 const italiana = Noto_Serif_Display({ subsets: ["latin"], weight: ["400"] });
 
 export default function AboutSection() {
@@ -10,11 +14,11 @@ export default function AboutSection() {
       id="about"
       className={`${roboto.className} w-full py-20 px-6 md:px-12 bg-[#f5f3e6]/50 text-gray-900`}
     >
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start md:min-h-[640px]">
+      <div className="max-w-6xl px-6 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start md:min-h-[640px]">
         {/* Left column */}
         <div className="flex flex-col justify-between self-end h-full">
           <div className="self-start">
-            <h2 className="text-4xl md:text-5xl lg:text-5xl mb-6 font-bold">
+            <h2 className="text-4xl md:text-6xl lg:text-6xl mb-6 font-bold">
               ABOUT <br />{" "}
               <span
                 className={`${italiana.className} text-6xl md:text-5xl lg:text-7xl`}

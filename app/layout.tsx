@@ -12,7 +12,9 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Salt & Light | Event Organizer",
   description: "An event organizer website service in Jakarta",
-  icons: "saltandlight.jpg",
+  icons: {
+    icon: "/saltandlight.png",
+  },
 };
 
 export default function RootLayout({

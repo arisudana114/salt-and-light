@@ -16,8 +16,8 @@ export default function PortofolioPage() {
     >
       <div className="max-w-6xl mx-auto px-6">
         {/* Title */}
-        <div className="mb-16 text-center md:text-left">
-          <h1 className="text-4xl md:text-6xl font-semibold mb-4">
+        <div className="mb-16 md:text-left">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">
             OUR PORTOFOLIO
           </h1>
           <p

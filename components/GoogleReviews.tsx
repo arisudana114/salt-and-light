@@ -43,7 +43,7 @@ export default function GoogleReviews() {
 
   return (
     <section
-      className={` ${roboto.className} min-h-[640px]  bg-[#f5f3e6]/50 text-gray-900 py-20`}
+      className={` ${roboto.className} min-h-[640px]  bg-[#f5f3e6]/50 text-gray-900 py-20 max-w-6xl px-6`}
     >
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl md:text-6xl font-bold mb-8 text-gray-800">

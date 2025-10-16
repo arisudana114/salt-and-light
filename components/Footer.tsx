@@ -11,7 +11,7 @@ import {
 export default function Footer() {
   return (
     <footer className="bg-white text-gray-900 py-16 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="max-w-6xl px-6 mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Left: Social links */}
         <div>
           <h3 className="text-xl font-semibold mb-4">FOLLOW US</h3>

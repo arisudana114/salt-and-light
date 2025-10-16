@@ -23,7 +23,9 @@ export default function OurClients() {
   const repeated = [...logos, ...logos];
 
   return (
-    <section className={`${roboto.className} bg-white mb-20 overflow-hidden`}>
+    <section
+      className={`${roboto.className} bg-white mb-20 overflow-hidden mt-6 px-6 `}
+    >
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl md:text-6xl font-semibold mb-4">OUR CLIENTS</h2>
 
